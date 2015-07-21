@@ -15,4 +15,68 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 }
 .headerWrap{
 	width: 1005px;	
+	border: 1px solid #000;
+	margin: 0 auto;
+	height: 49px;
+	padding-top: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
+.headerNav{
+	float: right;
+	border: 1px solid #000;
+	display: inline-block;
+}
+.headerNav nav ul li{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 35px;
+}
+.headerNav nav ul li.lastNavItem{
+	margin-right: 0;
+}
+.headerNav nav ul li a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.headerLogo{
+	display: inline-block;
+	float: left;
+}
+.headerLogo a{
+	display: block;
+}
+.mainContent{
+	max-width: 100%;
+	min-width: 1005px;
+	background: url('../img/mainBg.jpg') no-repeat;
+	height: 1198px;
+	background-size: cover;
+}
+.footerMainContent{
+	max-width: 100%;
+	min-width: 1005px;
+	background: #489eee;
+	height: 270px;
+}
+.maincontentWrap{
+	width: 1005px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

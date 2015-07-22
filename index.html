@@ -6,9 +6,11 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="js/jquery_ui/jquery-ui.min.css">
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/jquery_ui/jquery-ui.min.js"></script>
-	<script src="js/jquery_ui/datepicker-ru.js"></script>
+	
+	<link rel="stylesheet" href="js/slick/slick.css">
+	<link rel="stylesheet" href="js/slick/slick-theme.css">
+
+
 </head>
 <body>
 
@@ -53,13 +55,70 @@
 					<li class="liItem" id="li5"><a href="#">Розен институт и международные сообщества</a></li>
 				</ul>
 				<div id="datepicker"></div>
+				<div class="oldNewsWrap">
+					<a href="#" class="oldNews">Новости и Архив</a>
+				</div>
+				<div class="sidebarSlider">
+					<div class="slide">
+						<img src="img/sbi1.jpg" alt="">
+						<p>Обучающие события на ноябрь-декабрь 2014 г.</p>
+					</div>
+					<div class="slide">
+						<img src="img/sbi2.jpg" alt="">
+						<p>Обучающие события на ноябрь-декабрь 2014 г.</p>
+					</div>
+					<div class="slide">
+						<img src="img/sbi3.jpg" alt="">
+						<p>Обучающие события на ноябрь-декабрь 2014 г.</p>
+					</div>					
+				</div>				
 			</div>
 
 			<div class="contentMainPart">
+
 				<div class="mainPartHeader">
 					<h1 class="mainTitle">Российский центр Розен-метода</h1>
 					<button class="mainHButton"><span>Запись на</span><br>индивидуальную сессию</button>
-				</div>				
+				</div>		
+
+				<div class="maincontentSlider">
+					<img src="img/ms1.jpg" alt="">
+					<img src="img/ms2.jpg" alt="">
+					<img src="img/ms3.jpg" alt="">
+				</div>	
+
+				<div class="mainText">
+					<p>Добро пожаловать на сайт Российской школы Розен-метода!
+					На сайте вы найдете информацию об истории создания метода, условия обучения, статьи, отзывы и список практикующих специалистов.</p>
+					<p>«Розен-метод - это способ обращения к чувствам и опыту через тело. Через дыхание и мускулатуру тело показывает наши действительные чувства. При помощи мышечного напряжения тело подавля-ет чувства и опыт, с которыми мы были не в состоянии справиться в момент их возникновения. Таким образом, мы часто забываем все когда-то случившееся. Но, эти чувства и опыт, сохраненные в теле, все еще с нами, и приходится прибегать к очень большим усилиям, чтобы сдерживать их в бессозна-тельном. </p>
+					<p>Эти напряжения подобны рюкзакам, наполненным непереработанными чувствами, которые делают людей заблокированными. Когда подобный «рюкзак» одного человека встречается с «рюкзаком» другого, они никогда не смогут по-настоящему сблизиться, пока они их не снимут. Терапевты несут своим пациентам сообщение, суть которого в раскрытии нового измерения жизни. Вместо того, что бы использовать свою энергию на подавление и защиту некоторых «частей» себя, человек может позволить себе проявиться, стать видимым и осознавать богатство своего существования».</p>
+					<p class ="last">Мэрион Розен</p>
+				</div>	
+				<div class="mainTextCover"></div>
+
+				<div class="mainOrderForm">
+					<div class="mOFLeft">
+						<p class="formBoldText">ПИШИТЕ НАМ!</p>
+						<p class="formSlimText">НАШИ СПЕЦИАЛИСТЫ<br> ОПЕРАТИВНО ОТВЕТЯТ НА ВСЕ <br> ВАШИ ВОПРОСЫ</p>
+					</div>
+					<div class="mOFRight">
+						<form action="form.php" method="POST">
+
+							<div class="formLeft">
+								<input type="text" name="name" id="name" placeholder="Ваше имя"> <br>
+								<input type="email" name="email" id="email" placeholder="E-mail"> <br>
+								<input type="text" name="phone" id="phone" placeholder="Телефон">
+							</div>
+						
+							<div class="formRight">
+								<!-- <input type="text" name="text" id="text" maxlength="100" size="20" placeholder="Текст сообщения"> <br> -->
+								<textarea name="text" id="text" cols="35" rows="5" placeholder="Текст сообщения"></textarea><br>
+								<input type="submit" value="Отправить">
+							</div>
+							
+						</form>
+					</div>
+				</div>
 			</div>
 
 		</div>
@@ -70,6 +129,10 @@
 			
 		</div>
 	</footer>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/slick/slick.min.js"></script>
+	<script src="js/jquery_ui/jquery-ui.min.js"></script>
+	<script src="js/jquery_ui/datepicker-ru.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

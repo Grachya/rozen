@@ -196,12 +196,121 @@ button:focus{
 #li5{position: relative; z-index: 1}
 
 /*DATAPICKER*/
-
 .ui-datepicker-inline{
 	  width: 239px !important;
 	  margin-top: 10px;
 }
-
+.oldNewsWrap{
+	text-align: center;
+	margin-top: 10px;
+}
+.oldNews{
+	font-family: Arial;
+	color: #fff;
+	font-size: 24px;
+}
+.sidebarSlider{
+	margin-top: 10px;
+}
+.slide p{
+	background: #619ad3;
+	color: #fff;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+.maincontentSlider{
+	margin-top: 20px;
+}
+.mainText p{
+	padding: 10px 20px;
+}
+.mainText p.last{
+	text-align: right;
+}
+.mainText{
+	position: relative;
+	margin-bottom: -390px;
+	z-index: 2;
+	margin-top: 50px;
+}
+.mainTextCover{
+	width: 100%;
+	height: 400px;
+	background: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	-webkit-box-shadow: 0px 0px 16px 2px rgba(122,121,122,1);
+	-moz-box-shadow: 0px 0px 16px 2px rgba(122,121,122,1);
+	box-shadow: 0px 0px 16px 2px rgba(122,121,122,1);
+}
+.mainOrderForm{
+	width: 100%;
+	height: 155px;
+	background: #4490d8;
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 16px 2px rgba(122,121,122,1);
+	-moz-box-shadow: 0px 0px 16px 2px rgba(122,121,122,1);
+	box-shadow: 0px 0px 16px 2px rgba(122,121,122,1);
+}
+.mOFLeft{
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 245px;
+	height: 100%;
+	border: 1px solid #000;
+	padding: 5px 7px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.mOFRight{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	width: 450px;
+	height: 100%;
+	border: 1px solid #000;
+}
+.formBoldText{
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.formSlimText{
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.5;
+}
+.formLeft{
+	float: left;
+	padding: 12px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.formLeft input{
+	height: 24px;
+	width: 172px;
+	margin-bottom: 20px;
+}
+.formRight{
+	float: right;
+	padding: 12px 20px 12px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*.formRight #text{
+	width: 209px;
+	height: 72px;
+}*/
+textarea[name=text] {
+    resize: none;
+}
 
 
 

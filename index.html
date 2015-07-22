@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="js/jquery_ui/jquery-ui.min.css">
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/jquery_ui/jquery-ui.min.js"></script>
+	<script src="js/jquery_ui/datepicker-ru.js"></script>
 </head>
 <body>
 
@@ -37,14 +38,30 @@
 
 	<div class="mainContent">
 		<div class="maincontentWrap">
-			<div class="contetntSideBat"></div>
+			<div class="contetntSideBat">
+				<ul class="leftSideBar">
+					<li class="liItem" id="li1"><a href="#">О Мэрион Розен</a></li>
+					<li class="liItem" id="li2"><a href="#">О методе</a>
+						<ul class="aboutMethod">
+							<li><a href="#">История метода</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Мерион Розен о розен методе</a></li>
+						</ul>
+					</li>
+					<li class="liItem" id="li3"><a href="#">Российский центр Розен-метода</a></li>
+					<li class="liItem" id="li4"><a href="#">Чем вы интересуетесь?</a></li>
+					<li class="liItem" id="li5"><a href="#">Розен институт и международные сообщества</a></li>
+				</ul>
+				<div id="datepicker"></div>
+			</div>
+
 			<div class="contentMainPart">
 				<div class="mainPartHeader">
 					<h1 class="mainTitle">Российский центр Розен-метода</h1>
 					<button class="mainHButton"><span>Запись на</span><br>индивидуальную сессию</button>
-				</div>
-				
+				</div>				
 			</div>
+
 		</div>
 	</div>
 

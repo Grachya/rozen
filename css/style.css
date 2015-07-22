@@ -7,7 +7,7 @@
 	src:url('../fonts/calibriL.ttf');
 }
 p,h1,h2,h3,h4,h5,h6,li,a,span,div{
-	font-family:'calibri';
+	font-family: Arial;
 	font-size: 16px;
 	color: #242424;
 }
@@ -121,9 +121,9 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 button:active{
 	outline: none;
 	border: none;
--webkit-box-shadow: 10px 11px 15px -12px rgba(0,0,0,1);
--moz-box-shadow: 10px 11px 15px -12px rgba(0,0,0,1);
-box-shadow: 10px 11px 15px -12px rgba(0,0,0,1);
+	-webkit-box-shadow: 10px 11px 15px -12px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 11px 15px -12px rgba(0,0,0,1);
+	box-shadow: 10px 11px 15px -12px rgba(0,0,0,1);
 }
 button:focus{
 	outline:0;
@@ -144,11 +144,63 @@ button:focus{
 	outline: none;
 	border: 0px;
 }
+.aboutMethod{
+	display: none;
+}
+.aboutMethod li{
+	background: #a3cef6 !important;
+}
+.aboutMethod li:hover{
+	background: #ccc !important;
+}
+.aboutMethod li a{
+	padding: 5px 5px !important;
+}
 
+.contetntSideBat{
+	padding-top: 80px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.leftSideBar li{
+	display: block;
+	/*border: 1px solid #000;*/
 
+	background: #6ba2db; /* Old browsers */
+	background: -moz-linear-gradient(top,  #6ba2db 0%, #5990cc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6ba2db), color-stop(100%,#5990cc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #6ba2db 0%,#5990cc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #6ba2db 0%,#5990cc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #6ba2db 0%,#5990cc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #6ba2db 0%,#5990cc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ba2db', endColorstr='#5990cc',GradientType=0 ); /* IE6-9 */
 
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(122,116,122,1);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(122,116,122,1);
+	box-shadow: 0px 5px 5px 0px rgba(122,116,122,1);
+}
+.leftSideBar li a{
+	color: #fff;
+	padding: 15px 5px;
+	display: block;
+	text-decoration: none;
+}
+.leftSideBar li:hover{
+	background: #ccc;
+}
+#li1{position: relative; z-index: 5}
+#li2{position: relative; z-index: 4}
+#li3{position: relative; z-index: 3}
+#li4{position: relative; z-index: 2}
+#li5{position: relative; z-index: 1}
 
+/*DATAPICKER*/
 
+.ui-datepicker-inline{
+	  width: 239px !important;
+	  margin-top: 10px;
+}
 
 
 

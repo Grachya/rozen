@@ -60,7 +60,7 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 	max-width: 100%;
 	min-width: 1005px;
 	background: url('../img/mainBg.jpg') no-repeat;
-	height: 1198px;
+	/*height: 1198px;*/
 	background-size: cover;
 }
 .footerMainContent{
@@ -73,7 +73,8 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 	width: 1005px;
 	margin: 0 auto;
 	border: 1px solid #000;
-	height: 100%;
+	/*height: 100%;*/
+	padding-bottom: 100px;
 }
 .contetntSideBat{
 	float: left;
@@ -114,9 +115,9 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 	border: none;
 	margin-right: 2px;
 	padding-top: 7px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 button:active{
 	outline: none;
@@ -311,7 +312,65 @@ button:focus{
 textarea[name=text] {
     resize: none;
 }
-
-
+.formRight button{
+	float: right;
+	margin-top: 30px;
+	width: 124px;
+	height: 24px;
+	color: #fff;
+	font-size: 14px;
+	background: #45dc9a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #45dc9a 0%, #739678 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45dc9a), color-stop(100%,#739678)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #45dc9a 0%,#739678 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #45dc9a 0%,#739678 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #45dc9a 0%,#739678 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #45dc9a 0%,#739678 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45dc9a', endColorstr='#739678',GradientType=0 ); /* IE6-9 */
+}
+.footerMainContentWrap{
+	width: 1005px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+.fLeft{
+	width: 49%;
+	height: 125px;
+	border: 1px solid #000;
+	display: inline-block;
+}
+.fRight{
+	width: 49%;
+	height: 125px;
+	border: 1px solid #000;
+	display: inline-block;
+	float: right;
+}
+.fLeftItems1{
+	float: left;
+	width: 49%;
+	border: 1px solid #000;
+}
+.fLeftItems2{
+	float: right;
+	width: 49%;
+	border: 1px solid #000;
+}
+.fLeft li{
+	margin-bottom: 10px;
+}
+.fLeft a{
+	color: #fff;
+	font-size: 18px;
+}
+.fLeftItems1 p{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.footerTextLicence{
+	font-size: 14px;
+	color: #fff;
+}
 
 

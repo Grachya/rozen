@@ -19,7 +19,7 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 }
 .headerWrap{
 	width: 1005px;	
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	margin: 0 auto;
 	height: 49px;
 	padding-top: 10px;
@@ -30,7 +30,7 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 }
 .headerNav{
 	float: right;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	display: inline-block;
 }
 .headerNav nav ul li{
@@ -72,7 +72,7 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 .maincontentWrap{
 	width: 1005px;
 	margin: 0 auto;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	/*height: 100%;*/
 	padding-bottom: 100px;
 }
@@ -81,14 +81,14 @@ p,h1,h2,h3,h4,h5,h6,li,a,span,div{
 	display: inline-block;
 	width: 250px;
 	height: 100%;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .contentMainPart{
 	float: right;
 	display: inline-block;
 	width: 700px;
 	height: 100%;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .mainTitle{
 	font-family: 'calibriL';
@@ -262,7 +262,7 @@ button:focus{
 	float: left;
 	width: 245px;
 	height: 100%;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	padding: 5px 7px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -274,7 +274,7 @@ button:focus{
 	float: right;
 	width: 450px;
 	height: 100%;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .formBoldText{
 	font-size: 30px;
@@ -304,6 +304,7 @@ button:focus{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	width: 250px;
 }
 /*.formRight #text{
 	width: 209px;
@@ -311,10 +312,12 @@ button:focus{
 }*/
 textarea[name=text] {
     resize: none;
+    height: 72px;
+  width: 224px;
 }
 .formRight button{
 	float: right;
-	margin-top: 30px;
+	margin-top: 25px;
 	width: 124px;
 	height: 24px;
 	color: #fff;
@@ -328,33 +331,37 @@ textarea[name=text] {
 	background: linear-gradient(to bottom,  #45dc9a 0%,#739678 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45dc9a', endColorstr='#739678',GradientType=0 ); /* IE6-9 */
 }
+.formRight button:hover{
+	cursor: pointer;
+}
 .footerMainContentWrap{
 	width: 1005px;
 	margin: 0 auto;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
+	padding-top: 20px;
 }
 .fLeft{
 	width: 49%;
 	height: 125px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	display: inline-block;
 }
 .fRight{
 	width: 49%;
 	height: 125px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	display: inline-block;
 	float: right;
 }
 .fLeftItems1{
 	float: left;
 	width: 49%;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .fLeftItems2{
 	float: right;
 	width: 49%;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .fLeft li{
 	margin-bottom: 10px;

@@ -379,5 +379,30 @@ textarea[name=text] {
 	font-size: 14px;
 	color: #fff;
 }
-
+.contactHeaderText{
+	font-style: italic;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 78px;
+}
+.contactMap{
+	margin-top: 50px;
+}
+.contactAdress{
+	border: 1px solid #000;
+	height: 300px;
+}
+.contaxtLeftPart{
+	height: 100%;
+	border: 1px solid #000;
+	width: 49%;
+	display: inline-block;
+}
+.contaxtRightPart{
+	height: 100%;
+	width: 49%;
+	border: 1px solid #000;
+	display: inline-block;
+	float: right;
+}
 

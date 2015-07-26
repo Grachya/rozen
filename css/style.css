@@ -389,20 +389,59 @@ textarea[name=text] {
 	margin-top: 50px;
 }
 .contactAdress{
-	border: 1px solid #000;
-	height: 300px;
+	/*border: 1px solid #000;*/
+	/*height: 300px;*/
+	margin-top: 30px;
 }
 .contaxtLeftPart{
-	height: 100%;
-	border: 1px solid #000;
+	/*height: 100%;*/
+	/*border: 1px solid #000;*/
 	width: 49%;
 	display: inline-block;
 }
 .contaxtRightPart{
-	height: 100%;
+	/*height: 100%;*/
 	width: 49%;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	display: inline-block;
 	float: right;
 }
+.contaxtLeftPart p{
+	color: #070707;
+	font-size: 14px;
+}
+.workTime{
+	display: inline-block;
+	/*border: 1px solid #000;*/
+}
+.contactUsBut button{
+	background: #5ba7ee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5ba7ee 0%, #4390d7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5ba7ee), color-stop(100%,#4390d7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5ba7ee 0%,#4390d7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5ba7ee 0%,#4390d7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5ba7ee 0%,#4390d7 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5ba7ee 0%,#4390d7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ba7ee', endColorstr='#4390d7',GradientType=0 ); /* IE6-9 */
+	width: 92px;
+	height: 25px;
+	border:none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	float: right;
 
+}
+.contactUsBut button:hover{
+	cursor: pointer;
+}
+.contactUsBut{
+    display: inline-block;
+    width: 50%;
+    float: right;
+    margin-top: 13px;
+    margin-right: 20px;
+}
+.workTimeWrap{
+	margin-bottom: 40px;
+}

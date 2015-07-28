@@ -450,19 +450,19 @@ textarea[name=text] {
 	margin-top: 30px;
 }
 .specItem{
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	padding: 5px;
 	margin-bottom: 20px;
 }
 .specImg{
 	display: inline-block;
 	vertical-align: top;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 .specText{
 	display: inline-block;
 	vertical-align: top;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	/*width: 380px;*/
 }
 .specText p{
@@ -491,14 +491,17 @@ textarea[name=text] {
 	cursor: pointer;
 }
 .specBgWrap{
-	border: 1px solid #000;
-	height: 2000px;
-	margin-top: 12px;
+    /* border: 1px solid #000; */
+    /* height: 2000px; */
+    margin-top: 12px;
+    position: relative;
+    margin-bottom: -700px;
+    z-index: 2;	
 }
 .specMainText{
 	width: 505px;
 	height: 152px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	display: inline-block;
 	background: url('../img/quoteB.png') no-repeat bottom right;
 	padding-bottom: 18px;
@@ -527,3 +530,30 @@ textarea[name=text] {
 	font-size: 14px;
 	font-style: italic;
 }
+.specBgOpacityCover{
+	background: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	height: 700px;
+}
+.newsBgWrap{
+	margin-top: 30px;
+}
+.newsTitle{
+	font-size: 18px;
+	color: #595a5a;
+	width: 80%;
+	font-weight: bold;
+}
+.newsBlockItem{
+	border: 1px solid #000;
+}
+.newsBlockItem img{
+	float: left;
+}
+
+
+

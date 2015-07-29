@@ -549,10 +549,15 @@ textarea[name=text] {
 	font-weight: bold;
 }
 .newsBlockItem{
-	border: 1px solid #000;
+	border: 1px solid #ccebfb;
+	padding: 15px 15px 20px 15px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .newsBlockItem img{
 	float: left;
+	margin-right: 10px;
 }
 
 

@@ -1,39 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Rozen</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="js/jquery_ui/jquery-ui.min.css">	
-	<link rel="stylesheet" href="js/slick/slick.css">
-	<link rel="stylesheet" href="js/slick/slick-theme.css">
-</head>
-<body>
-	<header>
-		<div class="mainHeader">
-			<div class="headerWrap">
-
-				<div class="headerLogo">
-					<a href="/"><img src="img/logo.png" alt="логотип"></a>
-				</div>
-
-				<div class="headerNav">
-					<nav>
-						<ul>
-							<li><a href="/">Новости</a></li>
-							<li><a href="/">Календарь событий</a></li>
-							<li><a href="/">Наши специалисты</a></li>
-							<li><a href="/">Литература <br>и доп материалы</a></li>
-							<li class="lastNavItem"><a href="/">Контакты</a></li>
-						</ul>
-					</nav>
-				</div>
-
-			</div>
-		</div>		
-	</header>
-
+<?php 
+	include 'header.php';
+?>
 	<div class="mainContent">
 		<div class="maincontentWrap">
 			<div class="contetntSideBat">
@@ -142,43 +109,6 @@
 		</div>
 	</div>
 
-	<footer>
-		<div class="footerMainContent">
-			<div class="footerMainContentWrap">
-				<div class="fLeft">
-					<div class="fLeftItems1">
-						<ul>
-							<li><a href="#">Главная</a></li>
-							<li><a href="#">Отзывы о сеансах</a></li>
-							<li><a href="#">Кому рекомендован метод</a></li>
-						</ul>
-					</div>
-					<div class="fLeftItems2">
-						<ul>
-							<li><a href="#">Информация об обучении</a></li>
-							<li><a href="#">Контакты</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="fRight">
-					<div class="fLeftItems1">
-						<p>Найдите нас:</p>
-						<a href=""><img src="img/vk.png" alt=""></a>
-						<a href=""><img src="img/face.png" alt=""></a>
-					</div>
-					<div class="fLeftItems2">
-						<button class="mainHButton"><span>Запись на</span><br>индивидуальную сессию</button>
-					</div>
-				</div>
-				<div class="clear"></div>
-				<p class="footerTextLicence">© 2014 «Розен Школа» Все права на представленные материалы принадлежат «Розен Школа». Воспроизведение или распространение указанных материалов в любой форме может производиться только с письменного разрешения правообладателя. При использовании, ссылка на правообладателя и источник заимствования обязательна.</p>
-			</div>			
-		</div>
-	</footer>
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/slick/slick.min.js"></script>
-	<script src="js/jquery_ui/jquery-ui.min.js"></script>
-	<script src="js/jquery_ui/datepicker-ru.js"></script>
-	<script src="js/script.js"></script>
-</body>
-</html>
+	<?php 
+				include 'footet.php';
+			?>

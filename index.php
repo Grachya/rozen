@@ -89,5 +89,5 @@
 	</div><!-- CONTENT MAIN PART -->
 
 	<?php 
-				include 'footet.php';
+				include 'footer.php';
 			?>

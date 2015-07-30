@@ -447,7 +447,7 @@ textarea[name=text] {
 }
 .contentMainPart h1{
 	font-size: 36px;
-	margin-top: 30px;
+	margin-top: 13px;
 }
 .specItem{
 	/*border: 1px solid #000;*/
@@ -643,7 +643,7 @@ textarea[name=text] {
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.55);
 	padding: 15px;
 }
-input#name, input#phoneinp, input#emailinp{
+#mainForm input#name, #mainForm input#phoneinp, #mainForm input#emailinp{
 	width: 356px;
 	height: 30px;
 	line-height: 30px;
@@ -657,7 +657,7 @@ input#name, input#phoneinp, input#emailinp{
 	font-size: 20px;
 	margin-bottom: 10px;
 }
-textarea#text{
+#mainForm textarea#text{
 	width: 597px;
 	height: 134px;
 	line-height: 30px;

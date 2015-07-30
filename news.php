@@ -110,5 +110,5 @@
 	</div>
 
 	<?php 
-				include 'footet.php';
+				include 'footer.php';
 			?>
